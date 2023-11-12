@@ -3,10 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard Admin | FunSphere</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/frontend/css/style.css">
+    <title>Dashboard</title>
 </head>
-<body>
-   <h1 class="text-3xl">Dashboard Admin</h1>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+    <!-- Main Content -->
+    <div class="flex flex-wrap">
+
+        <!-- Sidebar -->
+        <div class="w-64 bg-gray-900 h-screen text-white">
+            <!-- Sidebar Content -->
+            <div class="p-4">
+                <h1 class="text-2xl font-semibold">Admin Dashboard</h1>
+                <ul class="mt-4">
+                    <li class="mb-2"><a href="#" class="text-blue-300 hover:text-white">Dashboard</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-300 hover:text-white">Users</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-300 hover:text-white">Products</a></li>
+                    <li class="mb-2"><a href="#" class="text-blue-300 hover:text-white">Settings</a></li>
+                </ul>
+            </div>
+            <!-- End Sidebar Content -->
+        </div>
+        <!-- End Sidebar -->
+
+        <!-- Main Content -->
+        <div class="flex-1">
+            <div class="p-4">
+                <h2 class="text-2xl font-semibold mb-4">Pembelian Tiket</h2>
+
+                <!-- Tabel Pembelian Tiket -->
+                <div class="overflow-x-auto">
+                    <table class="min-w-full border bg-white">
+                        <thead class="bg-gray-800 text-white">
+                            <tr>
+                                <th class="py-2 px-4">No</th>
+                                <th class="py-2 px-4">Nama Pelanggan</th>
+                                <th class="py-2 px-4">Jumlah Tiket</th>
+                                <th class="py-2 px-4">Total Harga</th>
+                                <th class="py-2 px-4">Tanggal Pembelian</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="py-2 px-4 border text-center">1</td>
+                                <td class="py-2 px-4 border text-center">Haris Saefuloh</td>
+                                <td class="py-2 px-4 border text-center">2</td>
+                                <td class="py-2 px-4 border text-center">Rp 60.000</td>
+                                <td class="py-2 px-4 border text-center">9-1-2023</td>
+                            </tr>
+                            <tr>
+                                <td class="py-2 px-4 border text-center">2</td>
+                                <td class="py-2 px-4 border text-center">Dzulkifli Faiz</td>
+                                <td class="py-2 px-4 border text-center">1</td>
+                                <td class="py-2 px-4 border text-center">Rp 30.000</td>
+                                <td class="py-2 px-4 border text-center">10-10-2023</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <!-- End Tabel Pembelian Tiket -->
+
+            </div>
+        </div>
+        <!-- End Main Content -->
+
+    </div>
 </body>
 </html>
