@@ -393,9 +393,9 @@
     <!-- end -->
 
     <!-- profil -->
-    <div id="profileSection" class="hidden relative overflow-x-auto shadow-md sm:rounded-lg">
-      <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-          <caption class="p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-800">
+    <div id="profileSection" class="hidden relative overflow-x-auto shadow-md sm:rounded-lg bg-gray-100 dark:bg-gray-900">
+      <table class="p-4 xl:ml-80 table-auto mx-auto w-full max-w-2xl text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
+          <caption class="mx-auto p-5 text-lg font-semibold text-left rtl:text-right text-gray-900 bg-white dark:text-white dark:bg-gray-800">
               Profil Penulis
               <p class="mt-1 text-sm font-normal text-gray-500 dark:text-gray-400"></p>
           </caption>
@@ -418,9 +418,19 @@
                   </th>
               </tr>
           </thead>
+          <div class="p-4 xl:ml-80">
+          <div class="grid min-h-[140px] w-full place-items-center rounded-lg p-6 lg:overflow-visible">
+            <img
+              class="object-cover object-center w-full h-96"
+              src="https://i.ibb.co/cy3bD1X/Desain-tanpa-judul-2.png"
+              alt="nature image"
+            />
+          </div>
+          </div>
+        
           <tbody>
               <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                  <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                  <th scope="row" class="mx-auto px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                       Nama Lengkap Sesuai KTP
                   </th>
                   <td class="px-6 py-4">
@@ -450,7 +460,7 @@
                       
                   </td>
                   <td class="px-6 py-4 text-right">
-                      <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+                      <a href="#" class="mx-auto font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
                   </td>
               </tr>
               <tr class="bg-white dark:bg-gray-800">
@@ -576,6 +586,40 @@
       </table>
   </div>
     <!-- end -->
+
+  <!--Login-->
+
+    <footer
+  class="flex flex-row flex-wrap items-center justify-center w-full py-6 text-center border-t gap-y-6 gap-x-12 border-blue-gray-50 md:justify-between">
+  <p class="block font-sans text-base antialiased font-normal leading-relaxed text-blue-gray-900">
+    © 2023 Dzul Haris Bukupedia
+  </p>
+  <ul class="flex flex-wrap items-center gap-y-2 gap-x-8">
+    <li>
+      <a href="#"
+        class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
+        Kontak
+      </a>
+    </li>
+    <li>
+      <a href="#"
+        class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
+        Keterangan
+      </a>
+    </li>
+    <li>
+      <a href="#"
+        class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
+        Alamat
+      </a>
+    </li>
+    <li>
+      <a href="#"
+        class="block font-sans text-base antialiased font-normal leading-relaxed transition-colors text-blue-gray-900 hover:text-blue-500 focus:text-blue-500">
+        Support
+    </li>
+  </ul>
+</footer> 
 
     <script src="src/js/transisi.js"></script>
 </body>

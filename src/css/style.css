@@ -631,6 +631,11 @@ video {
   margin-bottom: 1rem;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .-mt-0 {
   margin-top: -0px;
 }
@@ -747,6 +752,10 @@ video {
   height: 100%;
 }
 
+.h-96 {
+  height: 24rem;
+}
+
 .max-h-\[32px\] {
   max-height: 32px;
 }
@@ -757,6 +766,10 @@ video {
 
 .min-h-screen {
   min-height: 100vh;
+}
+
+.min-h-\[140px\] {
+  min-height: 140px;
 }
 
 .w-10 {
@@ -828,6 +841,10 @@ video {
   max-width: 100%;
 }
 
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .table-auto {
   table-layout: auto;
 }
@@ -863,6 +880,10 @@ video {
 
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
@@ -912,6 +933,24 @@ video {
 
 .gap-y-10 {
   row-gap: 2.5rem;
+}
+
+.gap-x-12 {
+  -moz-column-gap: 3rem;
+       column-gap: 3rem;
+}
+
+.gap-x-8 {
+  -moz-column-gap: 2rem;
+       column-gap: 2rem;
+}
+
+.gap-y-2 {
+  row-gap: 0.5rem;
+}
+
+.gap-y-6 {
+  row-gap: 1.5rem;
 }
 
 .overflow-hidden {
@@ -996,6 +1035,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-60 {
   --tw-bg-opacity: 0.6;
 }
@@ -1060,6 +1104,16 @@ video {
 
 .bg-clip-border {
   background-clip: border-box;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.object-center {
+  -o-object-position: center;
+     object-position: center;
 }
 
 .p-0 {
@@ -1582,6 +1636,11 @@ video {
   border-top-color: transparent;
 }
 
+.focus\:text-blue-500:focus {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .focus\:outline-0:focus {
   outline-width: 0px;
 }
@@ -1739,6 +1798,11 @@ video {
     background-color: rgb(31 41 55 / var(--tw-bg-opacity));
   }
 
+  .dark\:bg-gray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+  }
+
   .dark\:text-blue-500 {
     --tw-text-opacity: 1;
     color: rgb(59 130 246 / var(--tw-text-opacity));
@@ -1784,6 +1848,12 @@ video {
 
   .md\:justify-between {
     justify-content: space-between;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:overflow-visible {
+    overflow: visible;
   }
 }
 
