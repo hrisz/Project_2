@@ -17,20 +17,27 @@ var admin = [
 function getLogin() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
-  
-    for (i = 0; i < admin.length; i++) {
-      if (email == admin[i].email && password == admin[i].password) {
-        console.log("Admin logged successfully.");
-        alert("Selamat datang di Dashboard Admin Bukupedia!");
-        window.location.href = "dashboard.html";
-  
-        return;
-      } else if (!email || !password) {
+
+    if (!email || !password){
         console.log("There's still blank form.");
         alert("Harap isi semua bidang!");
-      } else {
+        return;
+    }
+
+    var Login = false;
+    for (i = 0; i < admin.length; i++) {
+        if (email === admin[i].email && password === admin[i].password) {
+            console.log("Admin login berhasil.");
+            Login = true;
+            break;
+        }
+    }
+    if (Login) {
+        alert("Selamat datang di Dashboard Admin Bukupedia!");
+        window.location.href = "dashboard.html";
+    }
+    else {
         console.log("Incorrect email or password");
         alert("Email atau password salah");
-      }
     }
-  }
+}
