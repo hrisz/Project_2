@@ -10,6 +10,7 @@ import (
 
 func SetupRoutes(app *fiber.App) {
 	api := app.Group("/api", logger.New())
+	
 	routeNaskah.SetupDataNaskahRoutes(api)
 	routePenulis.SetupDataPenulisRoutes(api)
 }

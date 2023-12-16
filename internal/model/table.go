@@ -28,6 +28,7 @@ type Data_Naskah struct {
 
 type Data_Penulis struct {
 	IdPenulis    int    `gorm:"primaryKey;column:id_penulis;autoIncrement" json:"idpenulis"`
+	Nama         string `gorm:"column:nama" json:"nama"`
 	UrlFoto      string `gorm:"column:url_foto" json:"urlfoto"`
 	Biografi     string `gorm:"column:biografi" json:"biografi"`
 	AlamatRumah  string `gorm:"column:alamat_rumah" json:"alamatrumah"`
@@ -35,5 +36,5 @@ type Data_Penulis struct {
 	NomorHp      string `gorm:"column:nomor_hp" json:"nomorhp"`
 	Email        string `gorm:"column:email" json:"emails"`
 	Pekerjaan    string `gorm:"column:pekerjaan" json:"pekerjaan"`
-	Nik          string `gorm:"column:nik" json:"nik"`
+	Nik          int    `gorm:"column:nik" json:"nik"`
 }
