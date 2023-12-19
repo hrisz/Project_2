@@ -1,0 +1,83 @@
+/* addor_style.css for style in add_order.html */
+
+/* Navbar setting */
+nav.navbar-expand-lg{
+    position: sticky;
+    top: 0;
+	z-index: 1;
+}
+
+/* background */
+
+.main-bg {
+  background-image: url(https://wallpapercave.com/wp/wp4766531.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 800px;
+  background-attachment: fixed;
+}
+
+/* Mengatur tema menjadi gelap dengan bootstrap */
+[data-bs-theme="dark"] {
+    color-scheme: dark;
+}
+
+/* Bagian judul */
+h1.title{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 40px;
+}
+
+/* Judul pada setiap field form */
+label {
+    color: white;
+    font-weight: bold;
+}
+
+/* Style untuk teks note */
+p.font-monospace {
+    color: white;
+    text-align: center;
+}
+
+/* Mengatur posisi form */
+.mid {
+    position: relative;
+    top: 50px;
+}
+
+/* Mengatur posisi form */
+.mid {
+    position: relative;
+    bottom: 100px;
+}
+
+/* Style untuk tombol login */
+
+a.login {
+    position: relative;
+    right: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 98, 0);
+    border: none;
+}
+
+a.login:hover {
+    position: relative;
+    right: 10px;
+    color: black;
+    background-color: rgb(255, 204, 0);
+}
+
+/* Menghilangkan dekorasi teks pada footer */
+a.text-light {
+    text-decoration: none;
+}
+
+.fix-position{
+    position: relative;
+    bottom: 50px;
+}
