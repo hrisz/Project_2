@@ -11,11 +11,11 @@ func SetupDataNaskahRoutes(router fiber.Router) {
 	// GET ALL
 	naskah.Get("/", handlernaskah.GetNaskah)
 	// GET BY ID
-	naskah.Get("/:idnaskah", handlernaskah.GetaNaskah)
+	naskah.Get("/:id_naskah", handlernaskah.GetaNaskah)
 	// POST
 	naskah.Post("/", handlernaskah.CreateNaskah)
 	// UPDATE
-	naskah.Put("/:idnaskah", handlernaskah.UpdateNaskah)
+	naskah.Put("/:id_naskah", handlernaskah.UpdateNaskah)
 	// DELETE
-	naskah.Delete("/:idnaskah", handlernaskah.DeleteNaskah)
+	naskah.Delete("/:id_naskah", handlernaskah.DeleteNaskah)
 }

@@ -2,7 +2,7 @@ package table
 
 // Struktur tabel data naskah pada database funsphere
 type Data_Naskah struct {
-	IdNaskah      int    `gorm:"primaryKey;column:id_naskah;autoIncrement" json:"idnaskah"`
+	IdNaskah      int    `gorm:"primaryKey;column:id_naskah;autoIncrement" json:"id_naskah"`
 	JudulNaskah   string `gorm:"column:judul_naskah" json:"judulnaskah"`
 	Sinopsis      string `gorm:"column:sinopsis" json:"sinopsis"`
 	JumlahHalaman string `gorm:"column:jumlah_halaman" json:"jumlahhalaman"`

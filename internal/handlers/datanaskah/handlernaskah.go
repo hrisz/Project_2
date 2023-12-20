@@ -50,8 +50,8 @@ func CreateNaskah(c *fiber.Ctx) error {
 //GET by ID Method
 
 func GetaNaskah(c *fiber.Ctx) error {
-	id := c.Params("idnaskah")
-	// Find naskah by idnaskah in database
+	id := c.Params("id_naskah")
+	// Find naskah by id_naskah in database
 	var naskah table.Data_Naskah
 	result := database.DB.First(&naskah, id)
 	// Check if naskah exists
@@ -76,9 +76,9 @@ func GetaNaskah(c *fiber.Ctx) error {
 // PUT/UPDATE Method
 
 func UpdateNaskah(c *fiber.Ctx) error {
-	// Get idnaskah parameter from request url
-	id := c.Params("idnaskah")
-	// Find naskah by idnaskah in database
+	// Get id_naskah parameter from request url
+	id := c.Params("id_naskah")
+	// Find naskah by id_naskah in database
 	var naskah table.Data_Naskah
 	result := database.DB.First(&naskah, id)
 	// Check if naskah exists
@@ -110,9 +110,9 @@ func UpdateNaskah(c *fiber.Ctx) error {
 //DELETE Method
 
 func DeleteNaskah(c *fiber.Ctx) error {
-	// Get idnaskah parameter from request url
-	id := c.Params("idnaskah")
-	// Find naskah by idnaskah in database
+	// Get id_naskah parameter from request url
+	id := c.Params("id_naskah")
+	// Find naskah by id_naskah in database
 	var naskah table.Data_Naskah
 	result := database.DB.First(&naskah, id)
 	// Check if data naskah exists
