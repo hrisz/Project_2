@@ -36,5 +36,5 @@ type Data_Penulis struct {
 	NomorHp      string `gorm:"column:nomor_hp" json:"nomorhp"`
 	Email        string `gorm:"column:email" json:"emails"`
 	Pekerjaan    string `gorm:"column:pekerjaan" json:"pekerjaan"`
-	Nik          int    `gorm:"column:nik" json:"nik"`
+	Nik          string `gorm:"column:nik" json:"nik"`
 }
