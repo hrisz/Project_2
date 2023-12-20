@@ -11,7 +11,7 @@ const jobInput = document.getElementById("job");
 const nikInput = document.getElementById("nik");
 
 // Tambahkan event listener pada tombol "Masukkan data"
-const inputButton = document.querySelector(".formbold-btn");
+const inputButton = document.querySelector(".add-penulis");
 inputButton.addEventListener("click", () => {
   // Ambil nilai input dari formulir
   const nama = namaPenulis.value;

@@ -12,7 +12,7 @@ const terbitanInput = document.getElementById("terbitan");
 const mediaInput = document.getElementById("media");
 const isbnInput = document.getElementById("isbn");
 const kdtInput = document.getElementById("pajak");
-const ktgBukuInput = document.getElementById("ktg_input");
+const ktgBukuInput = document.getElementById("ktg_buku");
 const thnTerbitInput = document.getElementById("tahun_terbit");
 const gnrsCodeInput = document.getElementById("genres_code");
 const promoInput = document.getElementById("promo_desk");
@@ -23,7 +23,7 @@ const urlHalJudulInput = document.getElementById("url_hal_judul");
 const urlPlagiarismInput = document.getElementById("url_plagiarism");
 
 // Tambahkan event listener pada tombol "Masukkan data"
-const inputButton = document.querySelector(".formbold-btn");
+const inputButton = document.querySelector(".add-naskah");
 inputButton.addEventListener("click", () => {
   // Ambil nilai input dari formulir
   const judul = judulInput.value;
