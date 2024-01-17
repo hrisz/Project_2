@@ -86,20 +86,7 @@
             </a>
           </li>
           <li>
-            <a class="" href="#">
-              <button id="buttonHide" onclick="hideButton()"
-                class="middle none font-sans font-bold center transition-all disabled:opacity-50 disabled:shadow-none disabled:pointer-events-none text-xs py-3 rounded-lg text-white hover:bg-white/10 active:bg-white/30 w-full flex items-center gap-4 px-4 capitalize"
-                type="button">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"
-                  class="w-5 h-5 text-inherit">
-                  <path fill-rule="evenodd"
-                    d="M5.25 9a6.75 6.75 0 0113.5 0v.75c0 2.123.8 4.057 2.118 5.52a.75.75 0 01-.297 1.206c-1.544.57-3.16.99-4.831 1.243a3.75 3.75 0 11-7.48 0 24.585 24.585 0 01-4.831-1.244.75.75 0 01-.298-1.205A8.217 8.217 0 005.25 9.75V9zm4.502 8.9a2.25 2.25 0 104.496 0 25.057 25.057 0 01-4.496 0z"
-                    clip-rule="evenodd"></path>
-                </svg>
-                <p class="block antialiased font-sans text-base leading-relaxed text-inherit font-medium capitalize">
-                  Pembayaran</p>
-              </button>
-            </a>
+            
           </li>
         </ul>
         <ul class="mb-4 flex flex-col gap-1">
@@ -137,11 +124,9 @@
       <div class="pt-1 xl:ml-80">
           <div class="mt-12">
               <div class="md:px-6 py-8 w-full">
-                  <!-- Larger Video Card -->
                   <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md">
                       <div class="mx-4 rounded-xl overflow-hidden flex items-center justify-center" style="height: 800px;">
-                          <!-- Adjust the height value as needed -->
-                          <video class="w-full h-full" controls style="width: 100%; height: 100%;">
+                          <video class="w-full h-full" controls autoplay loop style="width: 100%; height: 100%;">
                               <source src="assets/Black and White Modern Welcome to my Channel Video.mp4" type="video/mp4">
                               Your browser does not support the video tag.
                           </video>
@@ -150,17 +135,15 @@
                       </div>
                   </div>
               </div>
-  
-              <!-- Additional Content -->
               <div class="mb-4 grid grid-cols-1 gap-6 xl:grid-cols-3">
-                  <!-- Additional Cards/Content -->
                   <div class="relative flex flex-col bg-clip-border rounded-xl bg-white text-gray-700 shadow-md overflow-hidden xl:col-span-2">
-                      <!-- Additional Content -->
                   </div>
               </div>
           </div>
       </div>
   </div>
+  
+  
   
   
   
@@ -190,7 +173,6 @@
                   <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Email</th>
                   <th class="w-1/6 text-left py-3 px-10 uppercase font-semibold text-sm">Pekerjaan</th>
                   <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">NIK</th>
-                  <th class="w-1/6 text-center py-3 px-8 uppercase font-semibold text-sm">Opsi</th>
                 </tr>
               </thead>
               <tbody id="tabel-penulis" class="text-gray-700">
@@ -214,29 +196,28 @@
             <table class="table-auto w-full bg-white">
               <thead class="bg-gray-800 text-white">
                 <tr>
-                  <th class="text-left py-3 px-4 uppercase font-semibold text-sm">ID Naskah</th>
-                  <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Judul Naskah</th>
-                  <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Sinopsis</th>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Jumlah Halaman</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Lebar Buku</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Tinggi Buku</td>
-                  <th class="w-1/6 text-left py-3 px-4 uppercase font-semibold text-sm">Kel Pembaca</td>
-                  <th class="w-1/6 text-left py-3 px-10 uppercase font-semibold text-sm">Jenis Pustaka</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Kategori Jenis</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Terbitan</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Media</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">ISBN Susulan</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Pengajuan KDT</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Kategori Buku</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Tahun Terbit</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Genres Code</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Promo Desc</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Url as PDF</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Url Original</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Url Rawcover</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Url Hal Judul</td>
-                  <th class="w-1/6 text-left py-3 px-8 uppercase font-semibold text-sm">Url Plagiarism</td>
-                  <th class="w-1/6 text-center py-3 px-8 uppercase font-semibold text-sm">Opsi</td>
+                  <th class="text-left uppercase font-semibold text-sm">ID Naskah</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Judul Naskah</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Sinopsis</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Jumlah Halaman</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Lebar Buku</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Tinggi Buku</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Kel Pembaca</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Jenis Pustaka</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Kategori Jenis</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Terbitan</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Media</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">ISBN Susulan</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Pengajuan KDT</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Kategori Buku</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Tahun Terbit</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Genres Code</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Promo Desc</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Url as PDF</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Url Original</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Url Rawcover</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Url Hal Judul</th>
+                  <th class="w-1/12 uppercase font-semibold text-sm">Url Plagiarism</th>
                 </tr>
               </thead>
               <tbody id="tabel-naskah" class="text-gray-700">
@@ -305,17 +286,13 @@
                             </button>
 
                             <!--Forgot password link-->
-                            <a href="#!">Forgot password?</a>
+                            <a href="#!"></a>
                           </div>
 
                           <!--Register button-->
                           <div class="flex items-center justify-between pb-6">
-                            <p class="mb-0 mr-2">Don't have an account?</p>
-                            <button type="button"
-                              class="inline-block rounded border-2 border-danger px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:border-danger-600 hover:bg-neutral-500 hover:bg-opacity-10 hover:text-danger-600 focus:border-danger-600 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-danger-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10"
-                              data-te-ripple-init data-te-ripple-color="light">
-                              Register
-                            </button>
+                            <p class="mb-0 mr-2"></p>
+                            
                           </div>
                         </form>
                       </div>

@@ -2130,3 +2130,13 @@ video {
 .\[\&\:not\(\[data-te-input-placeholder-active\]\)\]\:placeholder\:opacity-0:not([data-te-input-placeholder-active])::placeholder {
   opacity: 0;
 }
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+}
