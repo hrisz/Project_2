@@ -14,7 +14,9 @@ var admin = [
     }
 ]
 
-function getLogin() {
+function getLogin(event) {
+    event.preventDefault(); // Prevent the default form submission behavior
+
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
